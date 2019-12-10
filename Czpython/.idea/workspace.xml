@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7882af53-4fc9-436d-8941-a8b41fdf2cd9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/day65/physics_picture8.py" />
+    </disable_hints>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/day68/lightgbm.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/day65/physics_picture8.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/day65/physics_4.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1OSvdqh6TJnftGSZT34JtWY8Yb3" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.physics_picture8">
+    <configuration name="feature_selection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="czpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day68" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day68/feature_selection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="k_means" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="czpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day68" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day68/k_means.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lightgbm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="czpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day68" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day68/lightgbm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="physics_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="czpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day65" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day65/physics_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="physics_picture8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="czpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day65" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day65/physics_picture8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.physics_picture8" />
+        <item itemvalue="Python.k_means" />
+        <item itemvalue="Python.lightgbm" />
+        <item itemvalue="Python.physics_4" />
+        <item itemvalue="Python.feature_selection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7882af53-4fc9-436d-8941-a8b41fdf2cd9" name="Default Changelist" comment="" />
+      <created>1563983902983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563983902983</updated>
+      <workItem from="1563983925314" duration="1621000" />
+      <workItem from="1563985665746" duration="171000" />
+      <workItem from="1564029352003" duration="266000" />
+      <workItem from="1564029652424" duration="1000" />
+      <workItem from="1564046386453" duration="4298000" />
+      <workItem from="1564056199395" duration="4893000" />
+      <workItem from="1565483613619" duration="1229000" />
+      <workItem from="1565486618128" duration="9635000" />
+      <workItem from="1565509285953" duration="8419000" />
+      <workItem from="1565521345338" duration="6710000" />
+      <workItem from="1565528204144" duration="1647000" />
+      <workItem from="1565584534615" duration="113000" />
+      <workItem from="1565602458177" duration="8188000" />
+      <workItem from="1565668074619" duration="1226000" />
+      <workItem from="1565686142283" duration="3249000" />
+      <workItem from="1565693303424" duration="8265000" />
+      <workItem from="1565766268052" duration="9972000" />
+      <workItem from="1565782620035" duration="8220000" />
+      <workItem from="1565856806239" duration="1407000" />
+      <workItem from="1565858235445" duration="474000" />
+      <workItem from="1565858726083" duration="748000" />
+      <workItem from="1565859641356" duration="3327000" />
+      <workItem from="1565863260592" duration="11697000" />
+      <workItem from="1566026708410" duration="7664000" />
+      <workItem from="1566037004228" duration="3419000" />
+      <workItem from="1566044015130" duration="2165000" />
+      <workItem from="1566214093418" duration="5027000" />
+      <workItem from="1566220947031" duration="6349000" />
+      <workItem from="1566297565741" duration="827000" />
+      <workItem from="1566300186523" duration="5920000" />
+      <workItem from="1566377827479" duration="6332000" />
+      <workItem from="1566442655187" duration="894000" />
+      <workItem from="1566480267155" duration="1567000" />
+      <workItem from="1566620805597" duration="576000" />
+      <workItem from="1566838246779" duration="98000" />
+      <workItem from="1566838846145" duration="344000" />
+      <workItem from="1567040180599" duration="607000" />
+      <workItem from="1567087740738" duration="3354000" />
+      <workItem from="1567092400598" duration="3509000" />
+      <workItem from="1567132218390" duration="303000" />
+      <workItem from="1567133485296" duration="5192000" />
+      <workItem from="1567156811834" duration="5124000" />
+      <workItem from="1567257733813" duration="597000" />
+      <workItem from="1567260078527" duration="275000" />
+      <workItem from="1567332513254" duration="1578000" />
+      <workItem from="1567424320944" duration="4511000" />
+      <workItem from="1567501362501" duration="13825000" />
+      <workItem from="1567562971572" duration="7067000" />
+      <workItem from="1567580475511" duration="7810000" />
+      <workItem from="1567588694551" duration="71000" />
+      <workItem from="1567600533312" duration="3039000" />
+      <workItem from="1567650083321" duration="1601000" />
+      <workItem from="1567771141331" duration="1588000" />
+      <workItem from="1567821901231" duration="4133000" />
+      <workItem from="1567843264972" duration="5630000" />
+      <workItem from="1567848970776" duration="3247000" />
+      <workItem from="1567852291550" duration="2475000" />
+      <workItem from="1567857527918" duration="551000" />
+      <workItem from="1567858312978" duration="722000" />
+      <workItem from="1567859607557" duration="3019000" />
+      <workItem from="1568029171696" duration="502000" />
+      <workItem from="1568029717096" duration="7084000" />
+      <workItem from="1568100275382" duration="2493000" />
+      <workItem from="1568168491850" duration="942000" />
+      <workItem from="1568175199720" duration="220000" />
+      <workItem from="1568254749352" duration="606000" />
+      <workItem from="1568387445954" duration="693000" />
+      <workItem from="1568435367231" duration="1869000" />
+      <workItem from="1568449535540" duration="19251000" />
+      <workItem from="1568470411800" duration="1308000" />
+      <workItem from="1568471817863" duration="3099000" />
+      <workItem from="1568510749748" duration="4074000" />
+      <workItem from="1568527426160" duration="673000" />
+      <workItem from="1568546875150" duration="1486000" />
+      <workItem from="1568597558212" duration="545000" />
+      <workItem from="1568602717205" duration="3903000" />
+      <workItem from="1568640680218" duration="1506000" />
+      <workItem from="1568728948929" duration="2511000" />
+      <workItem from="1568789824322" duration="10839000" />
+      <workItem from="1568808688647" duration="1521000" />
+      <workItem from="1568985036827" duration="1427000" />
+      <workItem from="1569154147704" duration="4196000" />
+      <workItem from="1569238426469" duration="3188000" />
+      <workItem from="1569411296984" duration="6890000" />
+      <workItem from="1569464763169" duration="839000" />
+      <workItem from="1569769406458" duration="3345000" />
+      <workItem from="1569935003756" duration="975000" />
+      <workItem from="1570173269534" duration="803000" />
+      <workItem from="1570295308813" duration="836000" />
+      <workItem from="1570340711737" duration="3052000" />
+      <workItem from="1570551169000" duration="225000" />
+      <workItem from="1570974633158" duration="2106000" />
+      <workItem from="1570979268001" duration="312000" />
+      <workItem from="1571151774171" duration="850000" />
+      <workItem from="1571204117188" duration="1069000" />
+      <workItem from="1571214735042" duration="290000" />
+      <workItem from="1571218254478" duration="444000" />
+      <workItem from="1571584672093" duration="2837000" />
+      <workItem from="1571668411285" duration="16000" />
+      <workItem from="1571916137681" duration="4703000" />
+      <workItem from="1572017049424" duration="173000" />
+      <workItem from="1572188554668" duration="2141000" />
+      <workItem from="1572441694162" duration="180000" />
+      <workItem from="1572443052274" duration="3035000" />
+      <workItem from="1572621383524" duration="1231000" />
+      <workItem from="1572793910858" duration="1916000" />
+      <workItem from="1573392031323" duration="4794000" />
+      <workItem from="1574246790926" duration="8955000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/czpython$physics_4.coverage" NAME="physics_4 Coverage Results" MODIFIED="1572446037004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day65" />
+    <SUITE FILE_PATH="coverage/czpython$physics_picture13.coverage" NAME="physics_picture13 Coverage Results" MODIFIED="1569417926010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day65" />
+    <SUITE FILE_PATH="coverage/czpython$alien_invasion.coverage" NAME="alien_invasion Coverage Results" MODIFIED="1567587555056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alien_invasion" />
+    <SUITE FILE_PATH="coverage/czpython$financial_forecast.coverage" NAME="financial_forecast Coverage Results" MODIFIED="1567563263669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day58" />
+    <SUITE FILE_PATH="coverage/czpython$pyplot.coverage" NAME="pyplot Coverage Results" MODIFIED="1568458396380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
+    <SUITE FILE_PATH="coverage/czpython$physics_picture.coverage" NAME="physics_picture Coverage Results" MODIFIED="1568527994617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day65" />
+    <SUITE FILE_PATH="coverage/czpython$insert_table.coverage" NAME="insert_table Coverage Results" MODIFIED="1565494890517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day35" />
+    <SUITE FILE_PATH="coverage/czpython$sk_learn.coverage" NAME="sk_learn Coverage Results" MODIFIED="1568597633280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day65" />
+    <SUITE FILE_PATH="coverage/czpython$lightgbm.coverage" NAME="lightgbm Coverage Results" MODIFIED="1573393256411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day68" />
+    <SUITE FILE_PATH="coverage/czpython$FetchTablene.coverage" NAME="FetchTablene Coverage Results" MODIFIED="1565492443527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day35" />
+    <SUITE FILE_PATH="coverage/czpython$EuclideanDistance.coverage" NAME="EuclideanDistance Coverage Results" MODIFIED="1566027295017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day37" />
+    <SUITE FILE_PATH="coverage/czpython$remote_shutdown.coverage" NAME="remote_shutdown Coverage Results" MODIFIED="1568175397178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day62" />
+    <SUITE FILE_PATH="coverage/czpython$wecat_control_pc.coverage" NAME="wecat_control_pc Coverage Results" MODIFIED="1567091199349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day54" />
+    <SUITE FILE_PATH="coverage/czpython$formatted_name.coverage" NAME="formatted_name Coverage Results" MODIFIED="1568032753761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day62" />
+    <SUITE FILE_PATH="coverage/czpython$list_2.coverage" NAME="list_2 Coverage Results" MODIFIED="1567771564995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day61" />
+    <SUITE FILE_PATH="coverage/czpython$3_dimension.coverage" NAME="3_dimension Coverage Results" MODIFIED="1566304736262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day39" />
+    <SUITE FILE_PATH="coverage/czpython$machine_learning.coverage" NAME="machine_learning Coverage Results" MODIFIED="1568729076505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day41" />
+    <SUITE FILE_PATH="coverage/czpython$pymysql_merge_table.coverage" NAME="pymysql_merge_table Coverage Results" MODIFIED="1565514177842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day33" />
+    <SUITE FILE_PATH="coverage/czpython$creat_table.coverage" NAME="creat_table Coverage Results" MODIFIED="1565494703982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day35" />
+    <SUITE FILE_PATH="coverage/czpython$bar_chart.coverage" NAME="bar_chart Coverage Results" MODIFIED="1566228010541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day38" />
+    <SUITE FILE_PATH="coverage/czpython$car_.coverage" NAME="car_ Coverage Results" MODIFIED="1569241580136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day66" />
+    <SUITE FILE_PATH="coverage/czpython$camera.coverage" NAME="camera Coverage Results" MODIFIED="1567138167203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day54" />
+    <SUITE FILE_PATH="coverage/czpython$qq_email.coverage" NAME="qq_email Coverage Results" MODIFIED="1567852721542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day55" />
+    <SUITE FILE_PATH="coverage/czpython$RFM_model.coverage" NAME="RFM_model Coverage Results" MODIFIED="1566216658091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
+    <SUITE FILE_PATH="coverage/czpython$function.coverage" NAME="function Coverage Results" MODIFIED="1567848881971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day62" />
+    <SUITE FILE_PATH="coverage/czpython$control_camera.coverage" NAME="control_camera Coverage Results" MODIFIED="1568794019501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day54" />
+    <SUITE FILE_PATH="coverage/czpython$.coverage" NAME="总折线图 Coverage Results" MODIFIED="1570342098027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
+    <SUITE FILE_PATH="coverage/czpython$filed.coverage" NAME="filed Coverage Results" MODIFIED="1565512145742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day35" />
+    <SUITE FILE_PATH="coverage/czpython$qq.coverage" NAME="qq Coverage Results" MODIFIED="1567137341731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day55" />
+    <SUITE FILE_PATH="coverage/czpython$3dim_split_table.coverage" NAME="3dim_split_table Coverage Results" MODIFIED="1568610531010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day39" />
+    <SUITE FILE_PATH="coverage/czpython$list_.coverage" NAME="list_ Coverage Results" MODIFIED="1567586905633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day60" />
+    <SUITE FILE_PATH="coverage/czpython$tablename.coverage" NAME="tablename Coverage Results" MODIFIED="1568510944703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day35" />
+    <SUITE FILE_PATH="coverage/czpython$first_class.coverage" NAME="first_class Coverage Results" MODIFIED="1569240342578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day66" />
+    <SUITE FILE_PATH="coverage/czpython$svm_.coverage" NAME="svm_ Coverage Results" MODIFIED="1569772333072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day68" />
+    <SUITE FILE_PATH="coverage/czpython$LRFMC_model.coverage" NAME="LRFMC_model Coverage Results" MODIFIED="1567090068091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day40" />
+    <SUITE FILE_PATH="coverage/czpython$feature_selection.coverage" NAME="feature_selection Coverage Results" MODIFIED="1572190190292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day68" />
+    <SUITE FILE_PATH="coverage/czpython$making_pizzas.coverage" NAME="making_pizzas Coverage Results" MODIFIED="1568985522385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day65" />
+    <SUITE FILE_PATH="coverage/czpython$draw.coverage" NAME="draw Coverage Results" MODIFIED="1565510628659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day35" />
+    <SUITE FILE_PATH="coverage/czpython$k_means.coverage" NAME="k_means Coverage Results" MODIFIED="1574246985441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day68" />
+    <SUITE FILE_PATH="coverage/czpython$test_1_.coverage" NAME="test(1) Coverage Results" MODIFIED="1565857321385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/czpython$extractor_1_.coverage" NAME="extractor(1) Coverage Results" MODIFIED="1565857339089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day39" />
+    <SUITE FILE_PATH="coverage/czpython$regular_expression.coverage" NAME="regular expression Coverage Results" MODIFIED="1566039934751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day36" />
+    <SUITE FILE_PATH="coverage/czpython$user_guide.coverage" NAME="user_guide Coverage Results" MODIFIED="1571587024899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day68" />
+    <SUITE FILE_PATH="coverage/czpython$draw_picture.coverage" NAME="draw_picture Coverage Results" MODIFIED="1565517258559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day34" />
+    <SUITE FILE_PATH="coverage/czpython$Score_Anal.coverage" NAME="Score_Anal Coverage Results" MODIFIED="1570979395719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day57" />
+    <SUITE FILE_PATH="coverage/czpython$scatter.coverage" NAME="scatter Coverage Results" MODIFIED="1568459764781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
+    <SUITE FILE_PATH="coverage/czpython$gaussianNB.coverage" NAME="gaussianNB Coverage Results" MODIFIED="1570173834693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day68" />
+    <SUITE FILE_PATH="coverage/czpython$physics_bao.coverage" NAME="physics_bao Coverage Results" MODIFIED="1568547681731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day65" />
+    <SUITE FILE_PATH="coverage/czpython$physics_picture_1.coverage" NAME="physics_picture_1 Coverage Results" MODIFIED="1570976174111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day65" />
+    <SUITE FILE_PATH="coverage/czpython$neural_networks.coverage" NAME="neural_networks Coverage Results" MODIFIED="1570976405333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day68" />
+    <SUITE FILE_PATH="coverage/czpython$shopping_chart.coverage" NAME="shopping_chart Coverage Results" MODIFIED="1567771357155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day60" />
+    <SUITE FILE_PATH="coverage/czpython$decision_trees.coverage" NAME="decision_trees Coverage Results" MODIFIED="1569157740902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day67" />
+    <SUITE FILE_PATH="coverage/czpython$physics_picture8.coverage" NAME="physics_picture8 Coverage Results" MODIFIED="1574255240019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day65" />
+    <SUITE FILE_PATH="coverage/czpython$DrawPicture.coverage" NAME="DrawPicture Coverage Results" MODIFIED="1565690819829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day35" />
+    <SUITE FILE_PATH="coverage/czpython$pizza.coverage" NAME="pizza Coverage Results" MODIFIED="1568793846205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day65" />
+    <SUITE FILE_PATH="coverage/czpython$pymysql_creat_db.coverage" NAME="pymysql_creat_db Coverage Results" MODIFIED="1565512591747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day33" />
+    <SUITE FILE_PATH="coverage/czpython$name_cases.coverage" NAME="name_cases Coverage Results" MODIFIED="1567582153257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day60" />
+    <SUITE FILE_PATH="coverage/czpython$function_2.coverage" NAME="function_2 Coverage Results" MODIFIED="1568469134027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day64" />
+    <SUITE FILE_PATH="coverage/czpython$cartoon.coverage" NAME="cartoon Coverage Results" MODIFIED="1567090082444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day54" />
+    <SUITE FILE_PATH="coverage/czpython$simple_message.coverage" NAME="simple_message Coverage Results" MODIFIED="1567567247471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day59" />
+  </component>
+</project>
