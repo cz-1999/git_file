@@ -6,8 +6,8 @@ Package::Package(const string &namesend,const string &addresssend,const string &
                  const string &addressreceive,const string &postalcode,double ounce,double costperounce)
 :nameSend(namesend),addressSend(addresssend),nameReceive(namereceive),addressReceive(addressreceive),PostalCode(postalcode)
 {
-    Ounce = ounce>=0?ounce:1;
-    CostPerOunce = costperounce>0?costperounce:1;
+    Ounce = ounce>0?ounce:1;
+    CostPerOunce = costperounce>=0?costperounce:1;
 }
 
 Package::~Package()
