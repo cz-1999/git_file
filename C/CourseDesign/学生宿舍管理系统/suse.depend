@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1562292220 source:c:\users\cz1999\desktop\学生宿舍管理系统\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<windows.h>
+	<conio.h>
+
+1559970796 source:c:\users\cz1999\desktop\报告，文件\学生宿舍管理系统\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<windows.h>
+	<conio.h>
+
+1562292220 source:d:\c语言\学生宿舍管理系统\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<windows.h>
+	<conio.h>
+
