@@ -7,22 +7,16 @@ using namespace std;
 vector<BankData>& LoadBankData();
 void SaveBankData(vector<BankData>& bankdatas);
 
-vector<string>& LoadAccount(vector<string>& accounts);
-void SaveAccount(vector<string>& accounts);
-
 void SaveBill(vector<Bill> &bills);
 
 string Login(vector<BankData>& bankdatas);
 void   Login();
 
-void MainMenu(vector<BankData> &bankdatas,vector<Bill> &bills,vector<string>& accounts);
+void MainMenu(vector<BankData> &bankdatas,vector<Bill> &bills);
 
-void BankForegroundSubMenu(vector<BankData> &bankdatas,vector<string>& accounts);
-void openAnAccount(vector<BankData> &bankdatas,vector<string>& accounts);
-void closeAnAccount(vector<BankData> &bankdatas,vector<string>& accounts);
-void Search(vector<BankData> &bankdatas);
-void BrowseUserInformation(vector<BankData> &bankdatas);
-void ModifyPhoneNumber(vector<BankData> &bankdatas);
+void BankForegroundSubMenu(vector<BankData> &bankdatas);
+void openAnAccount(vector<BankData> &bankdatas);
+void closeAnAccount(vector<BankData> &bankdatas);
 
 void AccountProcessSubMenu(vector<BankData>& bankdatas,vector<Bill> &bills);
 void saveWithdrawMonkey(vector<BankData>& bankdatas,string,vector<Bill> &bills);
@@ -33,6 +27,7 @@ void CheckBalance(vector<BankData>& bankdatas,string);
 void BrowseStatements(vector<Bill> &bills,string account);
 
 
+/*
 int main()
 {
 int serialNumber=0;
@@ -49,7 +44,6 @@ double balance=0;
 double balanceChanges;
 vector<BankData> bankdatas;
 vector<Bill> bills;
-vector<string> accounts;
 ifstream inFromFile;
 ofstream outFromFile;
 BankData bankdata;
@@ -95,8 +89,8 @@ while(inFromFile>>accountNumber>>signBit>>balanceChanges>>balance>>timeday>>time
     bills.push_back(bill);
 }
 inFromFile.close();
-LoadAccount(accounts);
-MainMenu(bankdatas,bills,accounts);
+
+MainMenu(bankdatas,bills);
 
 outFromFile.open("bankData.txt",ios::out);//不写ios::in bankdatas在输出之前会被清空
 for(BankData bankdata:bankdatas)
@@ -108,6 +102,7 @@ for(BankData bankdata:bankdatas)
 outFromFile.close();
 return 0;
 }
+*/
 
 vector<BankData>& LoadBankData()
 {
@@ -153,48 +148,6 @@ vector<BankData> &bankdatase = bankdatas;
 
 return bankdatase;
 }
-
-vector<string>& LoadAccount(vector<string>& accounts)
-{
-string account;
-ifstream inFromFile;
-
-inFromFile.open("account.txt",ios::in);
-if(!inFromFile)
-{
-cerr<<"File could not be opened."<<endl;
-exit(EXIT_FAILURE);
-}
-
-while(inFromFile>>account)
-{
-    accounts.push_back(account);
-}
-inFromFile.close();
-
-for(string account:accounts)
-    cout<<account<<endl;
-
-return accounts;
-}
-
-void SaveAccount(vector<string>& accounts)
-{
-ofstream outFromFile;
-outFromFile.open("account.txt",ios::out);//不写ios::in bankdatas在输出之前会被清空
-if(!outFromFile)
-{
-cerr<<"File could not be opened."<<endl;
-exit(EXIT_FAILURE);
-}
-
-for(string account:accounts)
-{
-    outFromFile<<account<<endl;
-}
-outFromFile.close();
-}
-
 
 void SaveBill(vector<Bill> &bills)
 {
@@ -363,7 +316,7 @@ if(!faccount)
 return account;
 }
 
-void MainMenu(vector<BankData> &bankdatas,vector<Bill> &bills,vector<string>& accounts)
+void MainMenu(vector<BankData> &bankdatas,vector<Bill> &bills)
 {
 while(true)
 {
@@ -378,7 +331,7 @@ loop: cout<<"Please input your choices\n";
 cin>>choice;
 switch(choice)
     {
-    case 1:BankForegroundSubMenu(bankdatas,accounts);break;
+    case 1:BankForegroundSubMenu(bankdatas);break;
     case 2:AccountProcessSubMenu(bankdatas,bills);break;
     case 3:CustomerSelfHelpSubMenu(bankdatas,bills);break;
     case 4:exit(0);
@@ -388,7 +341,7 @@ switch(choice)
 
 }
 
-void BankForegroundSubMenu(vector<BankData> &bankdatas,vector<string>& accounts)
+void BankForegroundSubMenu(vector<BankData> &bankdatas)
 {
 Login();
 while(true)
@@ -397,23 +350,17 @@ bool f=false;
 cout<<"------Banking Foreground Processing System-------\n\n"
     <<"1.Open An Account--------------------------------\n"
     <<"2.Close An Account-------------------------------\n"
-    <<"3.Search for user information--------------------\n"
-    <<"4.Browse user information------------------------\n"
-    <<"5.Modify bank reserved mobile phone number-------\n"
-    <<"6.Return To The Previous Level-------------------\n"
-    <<"7.Exit-------------------------------------------\n";
+    <<"3.Return To The Previous Level-------------------\n"
+    <<"4.Exit-------------------------------------------\n";
 int choice=0;
 loop: cout<<"Please input your choices\n";
 cin>>choice;
 switch(choice)
     {
-    case 1:openAnAccount(bankdatas,accounts);break;
-    case 2:closeAnAccount(bankdatas,accounts);break;
-    case 3:Search(bankdatas);break;
-    case 4:BrowseUserInformation(bankdatas);break;
-    case 5:ModifyPhoneNumber(bankdatas);break;
-    case 6:system("cls");f=true;break;
-    case 7:exit(0);
+    case 1:openAnAccount(bankdatas);break;
+    case 2:closeAnAccount(bankdatas);break;
+    case 3:system("cls");f=true;break;
+    case 4:exit(0);
     default:goto loop;
     }
 if(f)
@@ -422,38 +369,32 @@ if(f)
 }
 }
 
-void openAnAccount(vector<BankData> &bankdatas,vector<string>& accounts)
+void openAnAccount(vector<BankData> &bankdatas)
 {
-    int serialNumber=0;
-    string accountNumber;
-    string phoneNumber;
-    char firstName[10];//string类型使用不了copy()函数，需要使用字符数组
-    char lastName[15];
-    string loginPassWord;
-    string pinCode;
-    string signBit;
-    string time;
-    double balance=0;
-    ifstream inFromFile;
-    BankData bankdata;
-    int number;
-    number=rand()%accounts.size();
+int serialNumber=0;
+string accountNumber;
+string phoneNumber;
+char firstName[10];//string类型使用不了copy()函数，需要使用字符数组
+char lastName[15];
+string loginPassWord;
+string pinCode;
+string signBit;
+string time;
+double balance=0;
+ifstream inFromFile;
+BankData bankdata;
 
-    loop: cout<<"Please input the account of account number,last name,first name,"
-        <<"phone number,balance,login password,pin code\n";
-    cin>>serialNumber>>accountNumber>>lastName>>firstName>>phoneNumber>>balance>>loginPassWord>>pinCode;
-
-
-    for(BankData bankdata:bankdatas)
+loop: cout<<"Please input the account of account number,last name,first name,"
+    <<"phone number,balance,login password,pin code\n";
+cin>>serialNumber>>accountNumber>>lastName>>firstName>>phoneNumber>>balance>>loginPassWord>>pinCode;
+for(BankData bankdata:bankdatas)
+{
+    if(bankdata.getAccountNumber()==accountNumber)
     {
-        if(bankdata.getAccountNumber()==accountNumber)
-        {
-            cout<<"The account already exists\n";
-            goto loop;
-        }
+        cout<<"The account already exists\n";
+        goto loop;
     }
-    accountNumber=accounts[number];
-
+}
     bankdata.setAccountNumber(accountNumber);
     bankdata.setSerialNumber(serialNumber);
     bankdata.setLastName(lastName);
@@ -463,35 +404,23 @@ void openAnAccount(vector<BankData> &bankdatas,vector<string>& accounts)
     bankdata.setLoginPassWord(loginPassWord);
     bankdata.setPinCode(pinCode);
     bankdatas.push_back(bankdata);
-    cout<<"Account has been created\nCurrent accounts are: \n";
-    cout<<left<<setw(20)<<"serial number"<<setw(20)<<"account"<<setw(20)<<"lastname"<<setw(20)<<"firstname"<<setw(20)
-    <<"phone"<<setw(20)<<"balance"<<setw(20)<<"login password"<<right<<setw(15)<<"pin code"<<endl;
+cout<<"Account has been created\nCurrent accounts are: \n";
+cout<<left<<setw(20)<<"serial number"<<setw(20)<<"account"<<setw(20)<<"lastname"<<setw(20)<<"firstname"<<setw(20)
+<<"phone"<<setw(20)<<"balance"<<setw(20)<<"login password"<<right<<setw(15)<<"pin code"<<endl;
 
-    for(BankData bankdata:bankdatas)
-    {
-        cout<<left<<setw(20)<<bankdata.getSerialNumber()<<setw(20)<<bankdata.getAccountNumber()<<setw(20)
-        <<bankdata.getLastName()<<setw(20)<<bankdata.getFirstName()<<setw(20)<<bankdata.getPhoneNumber()<<setw(20)
-        <<bankdata.getBalance()<<setw(20)<<bankdata.getLoginPassWord()<<right<<setw(15)<<bankdata.getPinCode()<<endl;
-    }
-    system("pause");
-    system("cls");
+for(BankData bankdata:bankdatas)
+{
+    cout<<left<<setw(20)<<bankdata.getSerialNumber()<<setw(20)<<bankdata.getAccountNumber()<<setw(20)
+    <<bankdata.getLastName()<<setw(20)<<bankdata.getFirstName()<<setw(20)<<bankdata.getPhoneNumber()<<setw(20)
+    <<bankdata.getBalance()<<setw(20)<<bankdata.getLoginPassWord()<<right<<setw(15)<<bankdata.getPinCode()<<endl;
+}
+system("pause");
+system("cls");
 
-    vector<string>::iterator it;
-    for(it=accounts.begin();it!=accounts.end();)
-    {
-        if(*it==accountNumber)
-        {
-            it=accounts.erase(it);
-        }
-        else
-            ++it;
-    }
-
-    SaveAccount(accounts);
-    SaveBankData(bankdatas);
+SaveBankData(bankdatas);
 }
 
-void closeAnAccount(vector<BankData> &bankdatas,vector<string>& accounts)
+void closeAnAccount(vector<BankData> &bankdatas)
 {
 
 string account;
@@ -518,16 +447,6 @@ cout<<"The account does not exist\n";
 goto loop;
 }
 
-for(BankData bankdata:bankdatas)
-{
-   if(bankdata.getPhoneNumber()==account)
-   {
-        account==bankdata.getAccountNumber();
-        break;
-   }
-}
-accounts.push_back(account);
-
 cout<<"Account has been deleted\nCurrent accounts are: \n";
 cout<<left<<setw(20)<<"serial number"<<setw(20)<<"account"<<setw(20)<<"lastname"<<setw(20)<<"firstname"<<setw(20)
 <<"phone"<<setw(20)<<"balance"<<setw(20)<<"login password"<<right<<setw(15)<<"pin code"<<endl;
@@ -542,79 +461,9 @@ for(BankData bankdata:bankdatas)
 
 system("pause");
 system("cls");
-SaveAccount(accounts);
 SaveBankData(bankdatas);
 }
 
-void Search(vector<BankData> &bankdatas)
-{
-string account;
-bool f=false;
-cout<<"Please enter the account number or mobile phone number of the user to inquire"<<endl;
-cin>>account;
-
-cout<<left<<setw(20)<<"serial number"<<setw(20)<<"account"<<setw(20)<<"lastname"<<setw(20)<<"firstname"<<setw(20)
-<<"phone"<<setw(20)<<"balance"<<setw(20)<<"login password"<<right<<setw(15)<<"pin code"<<endl;
-for(BankData bankdata:bankdatas)
-{
-    if(bankdata.getAccountNumber()==account||bankdata.getPhoneNumber()==account)
-    {
-        cout<<left<<setw(20)<<bankdata.getSerialNumber()<<setw(20)<<bankdata.getAccountNumber()<<setw(20)
-        <<bankdata.getLastName()<<setw(20)<<bankdata.getFirstName()<<setw(20)<<bankdata.getPhoneNumber()<<setw(20)
-        <<bankdata.getBalance()<<setw(20)<<bankdata.getLoginPassWord()<<right<<setw(15)<<bankdata.getPinCode()<<endl;
-        f=true;
-        break;
-    }
-}
-if(!f)
-    cout<<"this user does not exist\n";
-system("pause");
-system("cls");
-}
-void BrowseUserInformation(vector<BankData> &bankdatas)
-{
-cout<<left<<setw(20)<<"serial number"<<setw(20)<<"account"<<setw(20)<<"lastname"<<setw(20)<<"firstname"<<setw(20)
-<<"phone"<<setw(20)<<"balance"<<setw(20)<<"login password"<<right<<setw(15)<<"pin code"<<endl;
-
-for(BankData bankdata:bankdatas)
-{
-    cout<<left<<setw(20)<<bankdata.getSerialNumber()<<setw(20)<<bankdata.getAccountNumber()<<setw(20)
-    <<bankdata.getLastName()<<setw(20)<<bankdata.getFirstName()<<setw(20)<<bankdata.getPhoneNumber()<<setw(20)
-    <<bankdata.getBalance()<<setw(20)<<bankdata.getLoginPassWord()<<right<<setw(15)<<bankdata.getPinCode()<<endl;
-}
-system("pause");
-system("cls");
-}
-
-void ModifyPhoneNumber(vector<BankData> &bankdatas)
-{
-    string account;
-    string phone;
-    bool f=false;
-    cout<<"Please enter the account number or mobile phone number of the user to be modified\n";
-    cin>>account;
-    for(BankData &bankdata:bankdatas)
-{
-    if(bankdata.getAccountNumber()==account||bankdata.getPhoneNumber()==account)
-    {
-        cout<<"Please enter a new phone number\n";
-        cin>>phone;
-        bankdata.setPhoneNumber(phone);
-        cout<<"The modification is completed.\n The modified mobile phone number is: \n";
-        cout<<bankdata.getPhoneNumber()<<endl;
-        f=true;
-        SaveBankData(bankdatas);
-        break;
-    }
-
-}
-
-if(!f)
-    cout<<"this user does not exist\n";
-system("pause");
-system("cls");
-
-}
 void AccountProcessSubMenu(vector<BankData>& bankdatas,vector<Bill> &bills)
 {
 string account;
@@ -623,19 +472,17 @@ while(true)
 {
 bool f=false;
 cout<<"------Account processing subsystem-------\n\n"
-    <<"1.Save Withdraw Money----------------------------\n"
-    <<"2.Transfer Money---------------------------------------\n"
-    <<"3.Return To The Previous Level-------------------\n"
-    <<"4.Exit-------------------------------------------\n";
+    <<"1.Save Withdraw Money--------------------------------\n"
+    <<"2.Return To The Previous Level-------------------\n"
+    <<"3.Exit-------------------------------------------\n";
 int choice=0;
 loop: cout<<"Please input your choices\n";
 cin>>choice;
 switch(choice)
     {
     case 1:saveWithdrawMonkey(bankdatas,account,bills);break;
-    case 2:break;
-    case 3:system("cls");f=true;break;
-    case 4:exit(0);
+    case 2:system("cls");f=true;break;
+    case 3:exit(0);
     default:goto loop;
     }
 if(f)

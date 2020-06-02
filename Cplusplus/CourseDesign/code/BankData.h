@@ -58,9 +58,6 @@ private:
     double balanceChanges;
     string time;
 
-    //string ID;
-    //string ;
-   // string ;
 };
 
 #endif // BANKDATA_H_INCLUDED
